@@ -1,5 +1,5 @@
 # gin-test
-A dummy application built using the Gin framework in Go
+A dummy application built using the Gin framework in Go.
 
 - It's designed to respond to customers of different brands based on the reciever's phone number. If they ask for the nearest store, NearestLoc() responds to that. // supported, but no actual implementation.
 
