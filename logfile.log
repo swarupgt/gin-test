@@ -1,0 +1,14 @@
+
+2021-09-16 18:13:21.784	|	Server start
+2021-09-16 18:13:28.258	|	GET |	::1 |	/test
+2021-09-16 18:13:28.259	|	Recieved from GET: {"payload":{"source":"917892556182","payload":{"text":"Hi"}}}
+2021-09-16 18:13:28.259	|	RespondText() called
+2021-09-16 18:13:28.260	|	dummydb query: SELECT bname FROM brand_data WHERE baseno = '917892556182' ;
+2021-09-16 18:13:28.260	|	Decision() called
+2021-09-16 18:13:28.260	|	200 Text Response
+2021-09-16 18:13:30.952	|	GET |	::1 |	/test
+2021-09-16 18:13:30.952	|	Recieved from GET: {"payload":{"source":"917892556182","location":{"lat":0.5,"long":0.4}}}
+2021-09-16 18:13:30.952	|	RespondLoc() called
+2021-09-16 18:13:30.952	|	dummydb query: SELECT bname FROM brand_data WHERE baseno = '917892556182' ;
+2021-09-16 18:13:30.952	|	NearestLoc() called
+2021-09-16 18:13:30.952	|	200 Location Response
