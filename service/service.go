@@ -23,7 +23,7 @@ func New() RequestService {
 
 	logger.Logger("RequestService created")
 
-	connStr := "user=swarupgt dbname=dummydb password=latlong123 host=localhost sslmode=disable"
+	connStr := "user=swarupgt dbname=dummydb password=weewoo host=localhost sslmode=disable"
 	//database opening
 	DB, err := sql.Open("postgres", connStr)
 	if err != nil {
